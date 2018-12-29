@@ -30,6 +30,14 @@ Use Wrapper script to decode the file:
 
 `Lolfiltration.sh -d <name>.lol`
 
+*or*
+For just the conversion process:
+
+`core_lol.py <input.64> <output.lol>`
+
+To extract:
+
+`core_lol.py -d <input.lol> <output.file>`
 
 ### Example:
 _Coming Soon_
