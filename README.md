@@ -41,4 +41,7 @@ To extract:
 `core_lol.py -d <input.lol> <output.file>`
 
 ### Example:
-_Coming Soon_
+![alt text](https://github.com/stakor/img/raw/master/src/common/images/img_examp_lolfiltration.gif "Example")
+
+Reference-style: 
+![alt text][logo]
