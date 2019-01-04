@@ -51,7 +51,7 @@ To extract:
 
 *Q:* What useful purpose does this serve?
 
-*A:* Base64 evastion.
+*A:* Base64 obfuscation / DLP evasion.
 
 *Q:* In the least reasonable way possible?
 
