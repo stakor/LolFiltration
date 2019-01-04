@@ -41,6 +41,6 @@ To extract:
 `core_lol.py -d <input.lol> <output.file>`
 
 ### Example:
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: https://github.com/stakor/img/blob/master/img_examp_lolfiltration.gif "Logo Title Text 2"
 
 
