@@ -46,5 +46,10 @@ To extract:
 ### Q&A:
 
 *Q:* Why?
-
 *A:* Why Not?
+
+*Q:* What useful purpose does this serve?
+*A:* Base64 evastion.
+
+*Q:* In the least reasonable way possible?
+*A:* LOL
