@@ -43,4 +43,8 @@ To extract:
 ### Example:
 ![alt text](https://github.com/stakor/img/blob/master/img_examp_lolfiltration.gif "Logo Title Text 1")
 
+### Q&A:
 
+*Q:* Why?
+
+*A:* Why Not?
