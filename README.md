@@ -15,7 +15,7 @@ Payload -> Base64
 
 Base64 -> LolFiltration
 
-LolFiltration - > bast64
+LolFiltration - > base64
 
 As you were…
 
