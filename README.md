@@ -19,6 +19,8 @@ LolFiltration - > bast64
 
 As you were…
 
+![alt text](https://github.com/stakor/img/blob/master/lolfiltration_process.jpg "Lolfiltration Process")
+
 
 ### Usage:
 
@@ -41,7 +43,7 @@ To extract:
 `core_lol.py -d <input.lol> <output.file>`
 
 ### Example:
-![alt text](https://github.com/stakor/img/blob/master/img_examp_lolfiltration.gif "Logo Title Text 1")
+![alt text](https://github.com/stakor/img/blob/master/img_examp_lolfiltration.gif "Lolfiltration")
 
 ### Q&A:
 
