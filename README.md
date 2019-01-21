@@ -1,7 +1,7 @@
 # LolFiltration
 
 ### Blog Post:
-_Coming Soon_
+http://tyriansec.com/2019/01/lolfiltration/
 
 ### Creator:
 Chris Stakor
