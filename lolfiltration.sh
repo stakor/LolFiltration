@@ -20,23 +20,24 @@ do
     elif [ "$arg" == "-d" ]
     then
         ## Decode Lolfiltrated File
-        echo "Converting LolFiltrated File into base64: $$.64"
-        $script_full_path/core_lol.py -d $2 $$.64
-        echo "Converting $$.64 into original binary file: lolfiltrated.file"
-        base64 -d $$.64 > lolfiltrated.file
+        exfil_file=`echo $2 | sed 's/\.lol$//'`
+        echo "Converting LolFiltrated File into base64: $exfil_file"
+        $script_full_path/core_lol.py -d $exfil_file.lol $exfil_file.64
+        echo "Converting $exfil_file.64 into original binary file: $exfil_file"
+        base64 --decode $exfil_file.64 > $exfil_file
         # Clean Up
-        echo "Cleaning up $$.64"
-        rm $$.64
+        # echo "Cleaning up $exfil_file.64" # Troubleshooting
+        rm $exfil_file.64
         exit
     else
         ## Encode File for LolFiltration
         # Convert Target File
-        echo "Converting file into base64: $$.64"
-        base64 $1 | tr -d "\r \n" > $$.64
+        echo "Converting file into base64: $1.64"
+        base64 $1 | tr -d "\r \n" > $1.64
         echo "Converting base64 file into lolfiltration file: $1.lol"
-        $script_full_path/core_lol.py $$.64 $1.lol
+        $script_full_path/core_lol.py $1.64 $1.lol
         # Clean Up
-        echo "Cleaning up base64 file: $$.64"
-        rm $$.64
+        # echo "Cleaning up base64 file: $1.64" # Troubleshooting
+        rm $1.64
     fi
 done
